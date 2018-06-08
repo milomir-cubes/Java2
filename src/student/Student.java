@@ -17,6 +17,8 @@ public class Student {
         this.firstName = "not defined";
         this.lastName = "not defined";
         this.yearOfBirth = 0;
+        this.computer = new Computer();
+        this.course = new Course();
     }
     
     
@@ -24,6 +26,8 @@ public class Student {
         this.firstName = firstName;
         this.lastName = lastName;
         this.yearOfBirth = yearOfBirth;
+        this.computer = new Computer();
+        this.course = new Course();
     }
 
     public Student(String firstName, String lastName, int yearOfBirth, Course course, Computer computer) {
