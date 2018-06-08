@@ -3,17 +3,28 @@ package computer;
 
 
 public class Computer {
+
     
-    private double prcessTact;
+    private double processTact;
     private double memory;
     private int hardDrive;
 
+    public Computer() {
+        
+    }
+    
+    public Computer(double processTact, double memory, int hardDrive) {
+        this.processTact = processTact;
+        this.memory = memory;
+        this.hardDrive = hardDrive;
+    }
+    
     public double getPrcessTact() {
-        return prcessTact;
+        return processTact;
     }
 
-    public void setPrcessTact(double prcessTact) {
-        this.prcessTact = prcessTact;
+    public void setPrcessTact(double processTact) {
+        this.processTact = processTact;
     }
 
     public double getMemory() {

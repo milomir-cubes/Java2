@@ -86,6 +86,14 @@ public class Student {
         System.out.println("First name: " + getFirstName());
         System.out.println("Last name: " + getLastName());
         System.out.println("Year of birth: " + getYearOfBirth());
+        
+        System.out.println("Computer, hard drive: " + getComputer().getHardDrive());
+        System.out.println("Computer, memeory: " + getComputer().getMemory());
+        System.out.println("Computer, process tact: " + getComputer().getPrcessTact());
+        
+        System.out.println("Course, name: " + getCourse().getName());
+        System.out.println("Course, number of classes: " + getCourse().getNumberOfClasses());
+        
     }
     
     
